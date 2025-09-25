@@ -5,6 +5,8 @@ st.title("🎮 Tetris by Samantha")
 st.markdown("""
 ## 🎮 How to Play Tetris  
 
+Point the screen to start.
+
 **Keyboard Controls (Desktop):**  
 - **W** → Rotate block  
 - **A** → Move left  
