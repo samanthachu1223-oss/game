@@ -1,7 +1,38 @@
 import streamlit as st
 
 st.set_page_config(page_title="Tetris Game", layout="centered")
-st.title("🎮 Tetris in Streamlit")
+st.title("🎮 Tetris by Samantha")
+st.text("Point the screen to start.
+
+🎮 How to Play Tetris
+
+Keyboard Controls (Desktop):
+
+W → Rotate block
+
+A → Move left
+
+D → Move right
+
+S → Soft drop (faster down)
+
+Touch Controls (Mobile/Tablet):
+
+Tap → Rotate block
+
+Drag Left/Right → Move block
+
+Drag Down → Soft drop
+
+Gameplay Rules:
+
+Blocks fall automatically over time.
+
+Your goal is to fill complete horizontal lines — these will clear and give you points.
+
+The game ends when the blocks stack to the top of the board.
+
+👉 Try to survive as long as possible and aim for the highest score!")
 
 tetris_html = """
 <!DOCTYPE html>
